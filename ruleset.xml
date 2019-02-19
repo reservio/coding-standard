@@ -56,7 +56,6 @@
         <exclude name="SlevomatCodingStandard.Functions.StaticClosure.ClosureNotStatic"/>
         <exclude name="SlevomatCodingStandard.Functions.UnusedParameter.UnusedParameter"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalConstants"/>
-        <exclude name="SlevomatCodingStandard.Files.TypeNameMatchesFileName.NoMatchBetweenTypeNameAndFileNames"/>
         <exclude name="SlevomatCodingStandard.Namespaces.FullyQualifiedGlobalFunctions"/>
         <exclude name="SlevomatCodingStandard.Namespaces.UseOnlyWhitelistedNamespaces"/>
         <exclude name="SlevomatCodingStandard.Operators.DisallowIncrementAndDecrementOperators.DisallowedPostIncrementOperator"/>
@@ -64,6 +63,7 @@
         <exclude name="SlevomatCodingStandard.PHP.TypeCast.InvalidCastUsed"/>
         <exclude name="SlevomatCodingStandard.TypeHints.NullTypeHintOnLastPosition.NullTypeHintNotOnLastPosition"/>
         <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn"/><!-- throws error with short type hint for integer and boolean -->
+        <exclude name="SlevomatCodingStandard.Files.TypeNameMatchesFileName.NoMatchBetweenTypeNameAndFileName"/><!-- throws error with short type hint for integer and boolean -->
     </rule>
 
     <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
